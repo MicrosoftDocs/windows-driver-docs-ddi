@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_DIVERSITY_SUPPORT
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_DIVERSITY_SUPPORT, *PDOT11_DIVERSITY_SUPPORT
 product:

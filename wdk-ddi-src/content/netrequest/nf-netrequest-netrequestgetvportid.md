@@ -36,8 +36,6 @@ api_location:
 - netrequest.h
 api_name: 
 - NetRequestGetVPortId
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

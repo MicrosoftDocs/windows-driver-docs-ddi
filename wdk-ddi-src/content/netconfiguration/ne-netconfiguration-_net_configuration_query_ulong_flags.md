@@ -29,8 +29,6 @@ api_location:
 - netconfiguration.h
 api_name: 
 - NET_CONFIGURATION_QUERY_ULONG_FLAGS
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

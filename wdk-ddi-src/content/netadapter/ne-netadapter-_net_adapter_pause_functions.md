@@ -29,8 +29,6 @@ api_location:
 - netadapter.h
 api_name: 
 - NET_ADAPTER_PAUSE_FUNCTIONS
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

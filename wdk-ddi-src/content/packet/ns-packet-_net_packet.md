@@ -32,8 +32,6 @@ apilocation:
 - packet.h
 apiname: 
 - NET_PACKET
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

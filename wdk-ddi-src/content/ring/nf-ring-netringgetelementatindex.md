@@ -36,8 +36,6 @@ apilocation:
 - ring.h
 apiname: 
 - NetRingGetElementAtIndex
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

@@ -36,8 +36,6 @@ api_location:
 - Windot11.h
 api_name:
 - DOT11_WPS_CONFIG_METHOD
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_WPS_CONFIG_METHOD, *PDOT11_WPS_CONFIG_METHOD
 product:

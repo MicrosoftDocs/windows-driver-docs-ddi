@@ -35,8 +35,6 @@ apilocation:
 - netrequestqueue.h
 apiname: 
 - EVT_NET_REQUEST_DEFAULT_METHOD
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

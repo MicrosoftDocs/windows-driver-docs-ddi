@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_KEY_ALGO_CCMP
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_KEY_ALGO_CCMP, *PDOT11_KEY_ALGO_CCMP
 product:

@@ -36,8 +36,6 @@ apilocation:
 - ringcollection.h
 apiname: 
 - NetRingCollectionGetFragmentRing
-product:
-- Windows
 targetos: Windows
 product:
 - Windows

@@ -36,8 +36,6 @@ api_location:
 - Windot11.h
 api_name:
 - DOT11_EXTSTA_ATTRIBUTES
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_EXTSTA_ATTRIBUTES, *PDOT11_EXTSTA_ATTRIBUTES
 product:

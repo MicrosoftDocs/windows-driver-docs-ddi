@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_CIPHER_DEFAULT_KEY_VALUE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_CIPHER_DEFAULT_KEY_VALUE, *PDOT11_CIPHER_DEFAULT_KEY_VALUE
 product:

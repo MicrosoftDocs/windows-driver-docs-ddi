@@ -36,8 +36,6 @@ api_location:
 - Windot11.h
 api_name:
 - DOT11_WFD_INVITATION_FLAGS
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_WFD_INVITATION_FLAGS, *PDOT11_WFD_INVITATION_FLAGS
 product:

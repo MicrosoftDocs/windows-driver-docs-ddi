@@ -36,8 +36,6 @@ api_location:
 - Windot11.h
 api_name:
 - DOT11_WFD_SCAN_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_WFD_SCAN_TYPE, *PDOT11_WFD_SCAN_TYPE
 product:

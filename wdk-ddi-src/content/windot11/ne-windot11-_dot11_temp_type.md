@@ -36,8 +36,6 @@ api_location:
 - windot11.h
 api_name:
 - DOT11_TEMP_TYPE
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_TEMP_TYPE, *PDOT11_TEMP_TYPE
 product:

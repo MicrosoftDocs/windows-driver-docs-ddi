@@ -36,8 +36,6 @@ api_location:
 - Windot11.h
 api_name:
 - DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
-product:
-- Windows
 targetos: Windows
 req.typenames: DOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO, *PDOT11_POWER_MGMT_AUTO_MODE_ENABLED_INFO
 product:

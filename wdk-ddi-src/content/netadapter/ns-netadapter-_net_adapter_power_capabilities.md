@@ -32,8 +32,6 @@ api_location:
 - netadapter.h
 api_name: 
 - NET_ADAPTER_POWER_CAPABILITIES
-product:
-- Windows
 targetos: Windows
 product:
 - Windows
