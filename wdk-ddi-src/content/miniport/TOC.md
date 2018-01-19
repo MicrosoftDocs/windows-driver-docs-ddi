@@ -1,0 +1,7 @@
+# [Display](../_display/index.md)
+## [Miniport.h](index.md)
+### [_EMULATOR_ACCESS_ENTRY structure](../miniport/ns-miniport-_emulator_access_entry.md)
+# [Windows kernel](../_kernel/index.md)
+## [Miniport.h](index.md)
+### [_GROUP_AFFINITY structure](../miniport/ns-miniport-_group_affinity.md)
+### [_PROCESSOR_NUMBER structure](../miniport/ns-miniport-_processor_number.md)

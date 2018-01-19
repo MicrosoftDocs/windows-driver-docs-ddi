@@ -1,0 +1,200 @@
+---
+UID: NE:ntddrilapitypes.RILDMCONFIGINFOITEM
+title: RILDMCONFIGINFOITEM
+author: windows-driver-content
+description: This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+old-location: netvista\rildmconfiginfoitem.htm
+old-project: netvista
+ms.assetid: 31061811-e148-4af2-8a9b-370d1b45ae1f
+ms.author: windowsdriverdev
+ms.date: 1/11/2018
+ms.keywords: RILDMCONFIGINFOITEM, RILDMCONFIGINFOITEM
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: ntddrilapitypes.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.alt-api: RILDMCONFIGINFOITEM
+req.alt-loc: ntddrilapitypes.h
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.typenames: RILDMCONFIGINFOITEM
+---
+
+# RILDMCONFIGINFOITEM enumeration
+
+
+
+## -description
+This topic supports the Windows driver infrastructure and is not intended to be used directly from your code.
+
+
+
+## -syntax
+
+````
+typedef enum _RILDMCONFIGINFOITEM { 
+  RILDMCONFIG_SIP_TIMER_T2,
+  RILDMCONFIG_SIP_TIMER_F,
+  RILDMCONFIG_SMS_FORMAT_TYPE,
+  RILDMCONFIG_DOMAIN_NAME,
+  RILDMCONFIG_SMS_OVER_IP_NW_INDICATION,
+  RILDMCONFIG_IMS_TEST_MODE_STATUS,
+  RILDMCONFIG_PCSCF_ADDRESS,
+  RILDMCONFIG_PCSCF_PORT_NUMBER,
+  RILDMCONFIG_MD5_AUTH,
+  RILDMCONFIG_MULTIPARTY_SERVER,
+  RILDMCONFIG_REQUEST_CONTEXT,
+  RILDMCONFIG_IMS_NAI,
+  RILDMCONFIG_SIP_SESSION_TIMER,
+  RILDMCONFIG_SIP_SESSION_TIMER_MIN,
+  RILDMCONFIG_AMR_WB_ENABLE,
+  RILDMCONFIG_AMR_SRC_CTL_RATE,
+  RILDMCONFIG_AMR_WB_SRC_CTL_RATE,
+  RILDMCONFIG_AMR_MODE_SET,
+  RILDMCONFIG_AMR_WB_MODE_SET,
+  RILDMCONFIG_RINGING_TIMER,
+  RILDMCONFIG_RINGBACK_TIMER,
+  RILDMCONFIG_RTC_INACTIVITY_TIMER,
+  RILDMCONFIG_UDP_KEEPALIVE_TIMER,
+  RILDMCONFIG_IMS_VOICE_ENABLED,
+  RILDMCONFIG_IMS_VIDEO_ENABLED,
+  RILDMCONFIG_IMS_NW_ENABLED_FLAGS,
+  RILDMCONFIG_IMS_IRAT_REG_DELAY,
+  RILDMCONFIG_1XRTT_FALLBACK_REDIAL_TIMER,
+  RILDMCONFIG_1XRTT_FALLBACK_REDIAL_ENABLE,
+  RILDMCONFIG_IMS_PRESENCE_ENABLED,
+  RILDMCONFIG_IMS_ROAMING_ENABLED,
+  RILDMCONFIG_IMS_XCAP_ENABLED,
+  RILDMCONFIG_EPDG_ADDRESS,
+  RILDMCONFIG_VOWIFI_ENTITLEMENT_CHECK,
+  RILDMCONFIG_RTT_MODE,
+  RILDMCONFIG_MAX
+} RILDMCONFIGINFOITEM;
+````
+
+
+## -enum-fields
+
+### -field RILDMCONFIG_SIP_TIMER_T2
+
+
+### -field RILDMCONFIG_SIP_TIMER_F
+
+
+### -field RILDMCONFIG_SMS_FORMAT_TYPE
+
+
+### -field RILDMCONFIG_DOMAIN_NAME
+
+
+### -field RILDMCONFIG_SMS_OVER_IP_NW_INDICATION
+
+
+### -field RILDMCONFIG_IMS_TEST_MODE_STATUS
+
+
+### -field RILDMCONFIG_PCSCF_ADDRESS
+
+
+### -field RILDMCONFIG_PCSCF_PORT_NUMBER
+
+
+### -field RILDMCONFIG_MD5_AUTH
+
+
+### -field RILDMCONFIG_MULTIPARTY_SERVER
+
+
+### -field RILDMCONFIG_REQUEST_CONTEXT
+
+
+### -field RILDMCONFIG_IMS_NAI
+
+
+### -field RILDMCONFIG_SIP_SESSION_TIMER
+
+
+### -field RILDMCONFIG_SIP_SESSION_TIMER_MIN
+
+
+### -field RILDMCONFIG_AMR_WB_ENABLE
+
+
+### -field RILDMCONFIG_AMR_SRC_CTL_RATE
+
+
+### -field RILDMCONFIG_AMR_WB_SRC_CTL_RATE
+
+
+### -field RILDMCONFIG_AMR_MODE_SET
+
+
+### -field RILDMCONFIG_AMR_WB_MODE_SET
+
+
+### -field RILDMCONFIG_RINGING_TIMER
+
+
+### -field RILDMCONFIG_RINGBACK_TIMER
+
+
+### -field RILDMCONFIG_RTC_INACTIVITY_TIMER
+
+
+### -field RILDMCONFIG_UDP_KEEPALIVE_TIMER
+
+
+### -field RILDMCONFIG_IMS_VOICE_ENABLED
+
+
+### -field RILDMCONFIG_IMS_VIDEO_ENABLED
+
+
+### -field RILDMCONFIG_IMS_NW_ENABLED_FLAGS
+
+
+### -field RILDMCONFIG_IMS_IRAT_REG_DELAY
+
+
+### -field RILDMCONFIG_1XRTT_FALLBACK_REDIAL_TIMER
+
+
+### -field RILDMCONFIG_1XRTT_FALLBACK_REDIAL_ENABLE
+
+
+### -field RILDMCONFIG_IMS_PRESENCE_ENABLED
+
+
+### -field RILDMCONFIG_IMS_ROAMING_ENABLED
+
+
+### -field RILDMCONFIG_IMS_XCAP_ENABLED
+
+
+### -field RILDMCONFIG_EPDG_ADDRESS
+
+
+### -field RILDMCONFIG_VOWIFI_ENTITLEMENT_CHECK
+
+
+### -field RILDMCONFIG_RTT_MODE
+
+
+### -field RILDMCONFIG_MAX
+
+
+## -remarks

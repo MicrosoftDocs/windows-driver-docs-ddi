@@ -1,0 +1,467 @@
+---
+UID: NS:pepfx._PEP_ACPI_EXTENDED_ADDRESS
+title: _PEP_ACPI_EXTENDED_ADDRESS
+author: windows-driver-content
+description: The PEP_ACPI_EXTENDED_ADDRESS structure is used to report resource usage in the address space such as memory and IO.
+old-location: kernel\pep_acpi_extended_address.htm
+old-project: kernel
+ms.assetid: E784765E-E346-4D57-B334-D0A0A823DAA8
+ms.author: windowsdriverdev
+ms.date: 1/4/2018
+ms.keywords: _PEP_ACPI_EXTENDED_ADDRESS, *PPEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: struct
+req.header: pepfx.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: Supported starting with Windows 10.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.alt-api: PEP_ACPI_EXTENDED_ADDRESS
+req.alt-loc: pepfx.h
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: PASSIVE_LEVEL
+req.typenames: *PPEP_ACPI_EXTENDED_ADDRESS, PEP_ACPI_EXTENDED_ADDRESS
+---
+
+# _PEP_ACPI_EXTENDED_ADDRESS structure
+
+
+
+## -description
+The <b>PEP_ACPI_EXTENDED_ADDRESS</b> structure is used to report resource usage in the address space such as memory and IO.
+
+
+
+## -syntax
+
+````
+typedef struct _PEP_ACPI_EXTENDED_ADDRESS {
+  PEP_ACPI_RESOURCE_TYPE  Type;
+  PEP_ACPI_RESOURCE_FLAGS Flags;
+  UCHAR                   ResourceFlags;
+  UCHAR                   GeneralFlags;
+  UCHAR                   TypeSpecificFlags;
+  UCHAR                   RevisionId;
+  UCHAR                   Reserved;
+  ULONGLONG               Granularity;
+  ULONGLONG               MinimumAddress;
+  ULONGLONG               MaximumAddress;
+  ULONGLONG               TranslationAddress;
+  ULONGLONG               AddressLength;
+  ULONGLONG               TypeAttribute;
+  PUNICODE_STRING         DescriptorName;
+} PEP_ACPI_EXTENDED_ADDRESS, *PPEP_ACPI_EXTENDED_ADDRESS;
+````
+
+
+## -struct-fields
+
+### -field Type
+
+A <a href="..\pepfx\ne-pepfx-_pep_acpi_resource_type.md">PEP_ACPI_RESOURCE_TYPE</a> enumeration value describing this resource.
+
+
+### -field Flags
+
+A <a href="..\pepfx\ns-pepfx-_pep_acpi_resource_flags.md">PEP_ACPI_RESOURCE_FLAGS</a> structure describing this resource.
+
+
+### -field ResourceFlags
+
+Indicates the type of resource this structure describes.
+
+<table>
+<tr>
+<th>Value</th>
+<th>Meaning</th>
+</tr>
+<tr>
+<td width="40%">
+
+### -field 0
+
+</td>
+<td width="60%">
+Indicates that this resource is a memory range.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+
+### -field 1
+
+</td>
+<td width="60%">
+Indicates that this resource is an IO range.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+
+### -field 2
+
+</td>
+<td width="60%">
+Indicates that this resource is a bus number range.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+
+### -field 3-191
+
+</td>
+<td width="60%">
+These values are reserved for future use.
+
+</td>
+</tr>
+<tr>
+<td width="40%">
+
+### -field 192-255
+
+</td>
+<td width="60%">
+These values are reserved for use by the hardware vendor.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field GeneralFlags
+
+A value containing the bit flags that are common to all resource types. 
+
+<table>
+<tr>
+<th>Bit(s)</th>
+<th>Meaning</th>
+</tr>
+<tr>
+
+### -field 0 - Consumer/Producer flag
+
+</td>
+<td width="60%">
+When set, this indicates that the device consumes this resource.
+
+</td>
+</tr>
+<tr>
+
+### -field 1 - Decode type
+
+</td>
+<td width="60%">
+When set, indicates that this bridge subtractively decodes the address. This applies to top level bridges only. 
+
+When not set, indicates that this bridge positively decodes this address.
+
+</td>
+</tr>
+<tr>
+
+### -field 2 - Minimum address fixed
+
+</td>
+<td width="60%">
+When set, indicates that the minimum address is fixed.
+
+</td>
+</tr>
+<tr>
+
+### -field 3 - Max address fixed
+
+</td>
+<td width="60%">
+When set, indicates that the maximum address is fixed. 
+
+</td>
+</tr>
+<tr>
+
+### -field 4 to 7 - Reserved
+
+</td>
+<td width="60%">
+These bits are reserved and must be set to zero.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field TypeSpecificFlags
+
+The value of this member is dependent on the value in <b>ResourceFlags</b> member. The flags for each resource type are described in the tables below.
+
+
+Memory Resource (<b>ResourceFlags</b> = <b>0</b>)
+
+
+
+<table>
+<tr>
+<th>Bit(s)</th>
+<th>Meaning</th>
+</tr>
+<tr>
+
+### -field 0 - Write status
+
+</td>
+<td width="60%">
+When set, indicates that this memory range is available for reading and writing. Otherwise, this indicates that this memory range is read-only.
+
+</td>
+</tr>
+<tr>
+
+### -field 1 to 2 - Memory attributes (MEM)
+
+</td>
+<td width="60%">
+<b>0</b> - Indicates the memory is non-cacheable.
+
+<b>1</b> - Indicates the memory is cacheable.
+
+<b>2</b> - Indicates the memory is cacheable and supports write combining.
+
+<b>3</b>  - The memory is cacheable and prefetchable.
+
+</td>
+</tr>
+<tr>
+
+### -field 3 to 4 - Memory attributes (MTP)
+
+</td>
+<td width="60%">
+These bits are only defined if this memory resource describes system RAM.  
+
+<b>0</b> - Address range memory: This range is available RAM usable by the operating system.
+
+<b>1</b> - Address range reserved: This range of addresses is in use or reserved by the system
+and is not to be included in the allocatable memory pool of the
+operating system's memory manager.
+
+<b>2</b> - Address range ACPI: ACPI Reclaim Memory. This range is available RAM usable by
+the OS after it reads the ACPI tables. 
+
+<b>3</b> - Address Range NVS: ACPI NVS Memory. This range of addresses is in use or
+reserved by the system and must not be used by the operating
+system. This range is required to be saved and restored across
+an NVS sleep.
+
+</td>
+</tr>
+<tr>
+
+### -field 5 - Memory to IO translation
+
+</td>
+<td width="60%">
+<b>0</b> - Type-static: This resource is memory on the primary and secondary sides of the bridge.
+
+<b>1</b> - Type-translation: This resource is memory on the secondary side of the bridge and IO on the primary side of the bridge.
+
+</td>
+</tr>
+<tr>
+
+### -field 6 to 7 - Reserved
+
+</td>
+<td width="60%">
+These bits are reserved and must be set to zero.
+
+</td>
+</tr>
+</table>
+ 
+
+
+IO Resource (<b>ResourceFlags</b> = <b>1</b>)
+
+
+
+<table>
+<tr>
+<th>Bit(s)</th>
+<th>Meaning</th>
+</tr>
+<tr>
+
+### -field 0 to 1 - Range
+
+</td>
+<td width="60%">
+<b>0</b> - Reserved.
+
+<b>1</b> - Non-ISA ranges only. This flag is for bridges on systems with multiple bridges. Setting this
+bit means the memory window specified in this descriptor is limited to the non-ISA IO
+addresses that fall within the specified window. The non-ISA IO ranges are: n100-n3FF,
+n500-n7FF, n900-nBFF, nD00-nFFF. This bit can only be set for bridges entirely
+configured through the ACPI namespace.
+
+
+<b>2</b> - ISA ranges only. This flag is for bridges on systems with multiple bridges. Setting this bit
+means the memory window specified in this descriptor is limited to the ISA IO addresses
+that fall within the specified window. The ISA IO ranges are: n000-n0FF, n400-n4FF,
+n800-n8FF, nC00-nCFF. This bit can only be set for bridges entirely configured through
+the ACPI namespace.
+
+
+<b>3</b> - The memory window covers the entire range
+
+
+</td>
+</tr>
+<tr>
+
+### -field 2 to 3 - Reserved
+
+</td>
+<td width="60%">
+These bits are reserved and must be set to zero.
+
+</td>
+</tr>
+<tr>
+
+### -field 4 - IO to memory translation
+
+</td>
+<td width="60%">
+<b>0</b> - Type-static: This resource is IO on the primary and secondary sides of the bridge.
+
+<b>1</b> - Type-translation: This resource is IO on the secondary side of the bridge and memory on the primary side of the bridge.
+
+</td>
+</tr>
+<tr>
+
+### -field 5 - Sparse translation
+
+</td>
+<td width="60%">
+This bit is only meaningful if bit 4 (IO to memory translation) is set.
+
+
+<b>0</b> - Dense translation: The primary-side memory address of any specific IO port within the
+secondary-side range can be found using the following function. 
+
+<i>     address = port + TranslationAddress</i>
+
+<b>1</b> - Sparse translation: The primary-side memory address of any specific IO port within the
+secondary-side range can be found using the following function.
+
+<i>address = (((port &amp; 0xFFFc) &lt;&lt; 10) || (port &amp; 0xFFF)) + TranslationAddress</i>
+
+In the address used to access the IO port, bits 2 to 11 must be identical
+to bits 12 to 21, this gives four bytes of IO ports on each 4 KB page.
+
+</td>
+</tr>
+<tr>
+
+### -field 6 to 7 - Reserved
+
+</td>
+<td width="60%">
+These bits are reserved and must be set to zero.
+
+</td>
+</tr>
+</table>
+ 
+
+
+Bus Number Range Resource (<b>ResourceFlags</b> = <b>2</b>)
+
+
+
+<table>
+<tr>
+<th>Bit(s)</th>
+<th>Meaning</th>
+</tr>
+<tr>
+
+### -field 0 to 7 - Reserved
+
+</td>
+<td width="60%">
+These bits are reserved and must be set to zero.
+
+</td>
+</tr>
+</table>
+ 
+
+
+### -field RevisionId
+
+Indicates the revision of the extended address space descriptor detailed by this structure. For ACPI 3.0, this value is 1.
+
+
+### -field Reserved
+
+
+### -field Granularity
+
+A bit mask indicating which bits have been decoded.
+
+
+### -field MinimumAddress
+
+The minimum starting address. For bridges that translate addresses, this is the address space on the secondary side of the bridge.
+
+
+### -field MaximumAddress
+
+The maximum starting address. For bridges that translate addresses, this is the address space
+on the secondary side of the bridge.
+
+
+### -field TranslationAddress
+
+For bridges that translate addresses across the bridge, this is the
+address on the primary side. 
+
+
+### -field AddressLength
+
+The address length.
+
+
+### -field TypeAttribute
+
+Indicates attributes that are specific to the resource type that is specified in the <b>ResourceFlags</b> member. If <b>ResourceFlags</b> is zero, this value is zero, otherwise the meaning of the value can be found in the <i>UEFI Specification</i> in the section titled <b>GetMemoryMap()</b>. 
+
+
+### -field DescriptorName
+
+The name of this resource descriptor.
+
+
+## -remarks

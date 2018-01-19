@@ -1,0 +1,5 @@
+# [General-purpose I/O (GPIO) controllers](../_gpio/index.md)
+## [Gpio.h](index.md)
+### [IOCTL_GPIO_CONTROLLER_SPECIFIC_FUNCTION IOCTL](../gpio/ni-gpio-ioctl_gpio_controller_specific_function.md)
+### [IOCTL_GPIO_READ_PINS IOCTL](../gpio/ni-gpio-ioctl_gpio_read_pins.md)
+### [IOCTL_GPIO_WRITE_PINS IOCTL](../gpio/ni-gpio-ioctl_gpio_write_pins.md)

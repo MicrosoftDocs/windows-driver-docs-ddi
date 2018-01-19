@@ -1,0 +1,5 @@
+# [Print devices](../_print/index.md)
+## [Tcpxcv.h](index.md)
+### [_CONFIG_INFO_DATA_1 structure](../tcpxcv/ns-tcpxcv-_config_info_data_1.md)
+### [_DELETE_PORT_DATA_1 structure](../tcpxcv/ns-tcpxcv-_delete_port_data_1.md)
+### [_PORT_DATA_1 structure](../tcpxcv/ns-tcpxcv-_port_data_1.md)

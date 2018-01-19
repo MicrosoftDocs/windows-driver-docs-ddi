@@ -1,0 +1,83 @@
+---
+UID: NE:ntddstor._STORAGE_ZONES_ATTRIBUTES
+title: _STORAGE_ZONES_ATTRIBUTES
+author: windows-driver-content
+description: Note  This structure is for internal use only and should not be called from your code. .
+old-location: storage\storage_zones_attributes.htm
+old-project: storage
+ms.assetid: 6C86A931-C87C-4273-9409-A45A3FDB8B4C
+ms.author: windowsdriverdev
+ms.date: 1/10/2018
+ms.keywords: _STORAGE_ZONES_ATTRIBUTES, *PSTORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: enum
+req.header: ntddstor.h
+req.include-header: 
+req.target-type: Windows
+req.target-min-winverclnt: 
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.alt-api: STORAGE_ZONES_ATTRIBUTES
+req.alt-loc: Ntddstor.h
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.typenames: *PSTORAGE_ZONES_ATTRIBUTES, STORAGE_ZONES_ATTRIBUTES
+---
+
+# _STORAGE_ZONES_ATTRIBUTES enumeration
+
+
+
+## -description
+
+<div class="alert"><b>Note</b>  This  structure is for internal use only and should not be called from your code.</div>
+<div> </div>
+
+
+
+
+## -syntax
+
+````
+typedef enum _STORAGE_ZONES_ATTRIBUTES { 
+  ZonesAttributeTypeAndLengthMayDifferent        = 0,
+  ZonesAttributeTypeSameLengthSame               = 1,
+  ZonesAttributeTypeSameLastZoneLengthDifferent  = 2,
+  ZonesAttributeTypeMayDifferentLengthSame       = 3
+} STORAGE_ZONES_ATTRIBUTES, *PSTORAGE_ZONES_ATTRIBUTES;
+````
+
+
+## -enum-fields
+
+### -field ZonesAttributeTypeAndLengthMayDifferent
+
+N/A
+
+
+### -field ZonesAttributeTypeSameLengthSame
+
+N/A
+
+
+### -field ZonesAttributeTypeSameLastZoneLengthDifferent
+
+N/A
+
+
+### -field ZonesAttributeTypeMayDifferentLengthSame
+
+N/A
+
+
+## -remarks

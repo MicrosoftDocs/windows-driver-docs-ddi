@@ -1,0 +1,6 @@
+# [Universal Serial Bus (USB)](../_usbref/index.md)
+## [Ufxbase.h](index.md)
+### [_USBFN_ACTION enumeration](../ufxbase/ne-ufxbase-_usbfn_action.md)
+### [IOCTL_INTERNAL_USBFN_DESCRIPTOR_UPDATE IOCTL](../ufxbase/ni-ufxbase-ioctl_internal_usbfn_descriptor_update.md)
+### [_UFX_DEVICE_CAPABILITIES structure](../ufxbase/ns-ufxbase-_ufx_device_capabilities.md)
+### [_UFX_HARDWARE_FAILURE_CONTEXT structure](../ufxbase/ns-ufxbase-_ufx_hardware_failure_context.md)

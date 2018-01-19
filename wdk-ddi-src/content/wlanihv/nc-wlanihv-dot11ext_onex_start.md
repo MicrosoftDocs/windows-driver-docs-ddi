@@ -1,0 +1,153 @@
+---
+UID: NC:wlanihv.DOT11EXT_ONEX_START
+title: DOT11EXT_ONEX_START
+author: windows-driver-content
+description: Important  The Native 802.11 Wireless LAN interface is deprecated in Windows 10 and later.
+old-location: netvista\dot11extstartonex.htm
+old-project: netvista
+ms.assetid: d4117da4-349a-4143-b2a8-d4edf6c02e7b
+ms.author: windowsdriverdev
+ms.date: 1/11/2018
+ms.keywords: _DRIVER_INFO_8W, *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8W, DRIVER_INFO_8
+ms.prod: windows-hardware
+ms.technology: windows-devices
+ms.topic: callback
+req.header: wlanihv.h
+req.include-header: Wlanihv.h
+req.target-type: Desktop
+req.target-min-winverclnt: Available in Windows Vista and later versions of the Windows operating   systems.
+req.target-min-winversvr: 
+req.kmdf-ver: 
+req.umdf-ver: 
+req.alt-api: Dot11ExtStartOneX
+req.alt-loc: wlanihv.h
+req.ddi-compliance: 
+req.unicode-ansi: 
+req.idl: 
+req.max-support: 
+req.namespace: 
+req.assembly: 
+req.type-library: 
+req.lib: 
+req.dll: 
+req.irql: 
+req.typenames: *LPDRIVER_INFO_8W, *PDRIVER_INFO_8W, DRIVER_INFO_8W
+req.product: Windows 10 or later.
+---
+
+# DOT11EXT_ONEX_START callback
+
+
+
+## -description
+
+## -prototype
+
+````
+DWORD WINAPI * Dot11ExtStartOneX(
+  _In_opt_ HANDLE         hDot11SvcHandle,
+  _In_opt_ EAP_ATTRIBUTES *pEapAttribute
+);
+````
+
+
+## -parameters
+
+### -param hDot11SvcHandle [in, optional]
+
+The handle used by the operating system to reference the wireless LAN (WLAN) adapter. This handle
+     value was specified through a previous call to the 
+     <a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a> IHV
+     Handler function.
+
+
+### -param pEapAttribute [in, optional]
+
+A pointer to an EAP_ATTRIBUTES array structure that contains the EAP attributes returned by the
+     authentication session. For more information about EAP_ATTRIBUTES, see the Microsoft Windows SDK
+     documentation.
+
+
+## -returns
+If the call succeeds, the function returns ERROR_SUCCESS. Otherwise, it returns an error code
+     defined in 
+     Winerror.h.
+
+
+## -remarks
+The IHV Extensions DLL can initiate an 802.1X authentication operation by using the 802.1X module of
+    the Native 802.11 framework. This allows the DLL to use the standard extensible authentication protocol
+    (EAP) algorithms that are supported by the operating system.
+
+The IHV Extensions DLL initiates the 802.1X authentication operation by calling the 
+    <b>Dot11ExtStartOneX</b> function. 
+    <b>Dot11ExtStartOneX</b> can only be called either during a post-association
+    operation or after the operation has completed. For more information about this operation, see 
+    <a href="https://msdn.microsoft.com/e4c7ea7a-53ad-41b2-bf3f-03c770e58043">Post-Association Operations</a>.
+
+When the 
+    <b>Dot11ExtStartOneX</b> function is called, the operating system sends an EAP
+    over LAN (EAPOL) Start packet to the AP. If the AP fails to respond after three transmissions of the
+    EAPOL-Start packet, the operating system fails the 802.1X authentication operation and calls the 
+    <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+    Dot11ExtIhvOneXIndicateResult</a> IHV Handler function. For more information about the EAPOL-Start
+    packet, refer to Clause 7.5 and Clause 8.4.2 of the IEEE 802.1X-1999 standard.
+
+After the 802.1X authentication operation is initiated, the IHV Extensions DLL must follow these
+    guidelines.
+
+The IHV Extensions must forward all EAPOL packets to the operating system for processing. When the
+      DLL receives an EAPOL packet through a call to the 
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a> IHV
+      Handler function, the DLL must call 
+      <a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a> to
+      forward the packet to the operating system.
+
+For more information about EAPOL packets, refer to Clause 7 of the IEEE 802.1X-2001 standard.
+
+When the 802.1X authentication operation is completed, the operating system calls the 
+      <a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+      Dot11ExtIhvOneXIndicateResult</a> IHV Handler function to indicate that authorization is in
+      progress.
+
+The IHV Extensions DLL can cancel the 802.1X authentication operation by calling 
+      <a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>.
+
+For more information about using the 802.1X module for authentication, see 
+    <a href="netvista.interface_to_the_native_802_11_802_1x_module">Interface to the Native
+    802.11 802.1X Module</a>.
+
+
+## -see-also
+<dl>
+<dt>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_init_adapter.md">Dot11ExtIhvInitAdapter</a>
+</dt>
+<dt>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_onex_indicate_result.md">
+   Dot11ExtIhvOneXIndicateResult</a>
+</dt>
+<dt>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_perform_post_associate.md">
+   Dot11ExtIhvPerformPostAssociate</a>
+</dt>
+<dt>
+<a href="..\wlanihv\nc-wlanihv-dot11extihv_receive_packet.md">Dot11ExtIhvReceivePacket</a>
+</dt>
+<dt>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_onex_stop.md">Dot11ExtStopOneX</a>
+</dt>
+<dt>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_post_associate_completion.md">
+   Dot11ExtPostAssociateCompletion</a>
+</dt>
+<dt>
+<a href="..\wlanihv\nc-wlanihv-dot11ext_process_onex_packet.md">Dot11ExtProcessOneXPacket</a>
+</dt>
+</dl>
+ 
+
+ 
+
+<a href="mailto:wsddocfb@microsoft.com?subject=Documentation%20feedback [netvista\netvista]:%20DOT11EXT_ONEX_START callback function%20 RELEASE:%20(1/11/2018)&amp;body=%0A%0APRIVACY STATEMENT%0A%0AWe use your feedback to improve the documentation. We don't use your email address for any other purpose, and we'll remove your email address from our system after the issue that you're reporting is fixed. While we're working to fix this issue, we might send you an email message to ask for more info. Later, we might also send you an email message to let you know that we've addressed your feedback.%0A%0AFor more info about Microsoft's privacy policy, see http://privacy.microsoft.com/en-us/default.aspx." title="Send comments about this topic to Microsoft">Send comments about this topic to Microsoft</a>
+

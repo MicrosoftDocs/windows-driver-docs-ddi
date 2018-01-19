@@ -1,0 +1,6 @@
+# [Battery](../_battery/index.md)
+## [Ntpoapi.h](index.md)
+### [BATTERY_REPORTING_SCALE structure](../ntpoapi/ns-ntpoapi-battery_reporting_scale.md)
+# [Windows Driver Framework](../_wdf/index.md)
+## [Ntpoapi.h](index.md)
+### [*PPOWER_ACTION enumeration](../ntpoapi/ne-ntpoapi-ppower_action.md)

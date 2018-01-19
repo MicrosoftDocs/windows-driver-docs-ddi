@@ -1,0 +1,6 @@
+# [Storage](../_storage/index.md)
+## [Storduid.h](index.md)
+### [_DUID_MATCH_STATUS enumeration](../storduid/ne-storduid-_duid_match_status.md)
+### [CompareStorageDuids function](../storduid/nf-storduid-comparestorageduids.md)
+### [_STORAGE_DEVICE_LAYOUT_SIGNATURE structure](../storduid/ns-storduid-_storage_device_layout_signature.md)
+### [_STORAGE_DEVICE_UNIQUE_IDENTIFIER structure](../storduid/ns-storduid-_storage_device_unique_identifier.md)

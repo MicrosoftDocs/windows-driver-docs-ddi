@@ -1,0 +1,8 @@
+# [Battery](../_battery/index.md)
+## [Upssvc.h](index.md)
+### [UPSCancelWait function](../upssvc/nf-upssvc-upscancelwait.md)
+### [UPSGetState function](../upssvc/nf-upssvc-upsgetstate.md)
+### [UPSInit function](../upssvc/nf-upssvc-upsinit.md)
+### [UPSStop function](../upssvc/nf-upssvc-upsstop.md)
+### [UPSTurnOff function](../upssvc/nf-upssvc-upsturnoff.md)
+### [UPSWaitForStateChange function](../upssvc/nf-upssvc-upswaitforstatechange.md)

@@ -1,0 +1,6 @@
+# [Print devices](../_print/index.md)
+## [Prnasntp.h](index.md)
+### [RouterCreatePrintAsyncNotificationChannel function](../prnasntp/nf-prnasntp-routercreateprintasyncnotificationchannel.md)
+### [RouterGetPrintClassObject function](../prnasntp/nf-prnasntp-routergetprintclassobject.md)
+### [RouterRegisterForPrintAsyncNotifications function](../prnasntp/nf-prnasntp-routerregisterforprintasyncnotifications.md)
+### [RouterUnregisterForPrintAsyncNotifications function](../prnasntp/nf-prnasntp-routerunregisterforprintasyncnotifications.md)

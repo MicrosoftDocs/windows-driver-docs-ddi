@@ -1,0 +1,8 @@
+# [ACPI](../_acpi/index.md)
+## [Acpitabl.h](index.md)
+### [_BBRT_TABLE structure](../acpitabl/ns-acpitabl-_bbrt_table.md)
+### [_GIC_ITS structure](../acpitabl/ns-acpitabl-_gic_its.md)
+### [_LPIT structure](../acpitabl/ns-acpitabl-_lpit.md)
+### [_LPI_STATE_DESCRIPTOR structure](../acpitabl/ns-acpitabl-_lpi_state_descriptor.md)
+### [_LPI_STATE_FLAGS structure](../acpitabl/ns-acpitabl-_lpi_state_flags.md)
+### [_SDEV_SECURE_ACPI_INFO_ENTRY structure](../acpitabl/ns-acpitabl-_sdev_secure_acpi_info_entry.md)

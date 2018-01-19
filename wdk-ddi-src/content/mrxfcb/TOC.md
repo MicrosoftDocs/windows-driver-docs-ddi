@@ -1,0 +1,7 @@
+# [Installable file system](../_ifsk/index.md)
+## [Mrxfcb.h](index.md)
+### [RxAcquireExclusiveFcbResourceInMRx function](../mrxfcb/nf-mrxfcb-rxacquireexclusivefcbresourceinmrx.md)
+### [RxAcquireSharedFcbResourceInMRx function](../mrxfcb/nf-mrxfcb-rxacquiresharedfcbresourceinmrx.md)
+### [RxAcquireSharedFcbResourceInMRxEx function](../mrxfcb/nf-mrxfcb-rxacquiresharedfcbresourceinmrxex.md)
+### [RxReleaseFcbResourceForThreadInMRx function](../mrxfcb/nf-mrxfcb-rxreleasefcbresourceforthreadinmrx.md)
+### [RxReleaseFcbResourceInMRx function](../mrxfcb/nf-mrxfcb-rxreleasefcbresourceinmrx.md)

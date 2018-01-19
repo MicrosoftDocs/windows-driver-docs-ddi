@@ -1,0 +1,7 @@
+# [Print devices](../_print/index.md)
+## [Usbprint.h](index.md)
+### [IOCTL_USBPRINT_GET_1284_ID IOCTL](../usbprint/ni-usbprint-ioctl_usbprint_get_1284_id.md)
+### [IOCTL_USBPRINT_GET_LPT_STATUS IOCTL](../usbprint/ni-usbprint-ioctl_usbprint_get_lpt_status.md)
+### [IOCTL_USBPRINT_SOFT_RESET IOCTL](../usbprint/ni-usbprint-ioctl_usbprint_soft_reset.md)
+### [IOCTL_USBPRINT_VENDOR_GET_COMMAND IOCTL](../usbprint/ni-usbprint-ioctl_usbprint_vendor_get_command.md)
+### [IOCTL_USBPRINT_VENDOR_SET_COMMAND IOCTL](../usbprint/ni-usbprint-ioctl_usbprint_vendor_set_command.md)
