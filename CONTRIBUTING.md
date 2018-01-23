@@ -1,8 +1,7 @@
 # Contributing to Windows Driver Reference Documentation
 
 This page covers the basic steps for contributing to the Windows driver reference documentation.
-If you're looking for the driver conceptual docs, that's in a different repo.
-See https://github.com/MicrosoftDocs/windows-driver-docs.
+If you're looking for the driver conceptual docs, that's in a [different repo](https://github.com/MicrosoftDocs/windows-driver-docs).
 
 ## Architecture
 
@@ -35,7 +34,7 @@ If you'd like to suggest a change to the docs, follow these steps:
 
 After you create the pull request, a member of the Windows Driver Documentation team will review your changes. 
 
-If your request is accepted, updates are published to https://docs.microsoft.com/windows-hardware/drivers/ddi.
+If your request is accepted, updates are published to https://docs.microsoft.com/windows-hardware/drivers/ddi, usually within 24 hours.
 
 If you're a Microsoft employee and you need to collaborate in a private environment, please contact the windowsdriverdev alias.
 
