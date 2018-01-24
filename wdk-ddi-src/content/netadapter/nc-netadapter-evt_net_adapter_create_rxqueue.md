@@ -11,7 +11,7 @@ ms.prod: windows-hardware
 ms.technology: windows-devices
 req.header: netadapter.h
 req.include-header:
-req.target-type:
+req.target-type: Universal
 req.target-min-winverclnt:
 req.target-min-winversvr:
 req.kmdf-ver: 1.21
@@ -57,8 +57,7 @@ NTSTATUS EvtNetAdapterCreateRxqueue
 )
 {...}
 
-EVT_NET_ADAPTER_CREATE_RXQUEUE *PFN_NET_ADAPTER_CREATE_RXQUEUE
-
+typedef EVT_NET_ADAPTER_CREATE_RXQUEUE *PFN_NET_ADAPTER_CREATE_RXQUEUE
 
 ```
 
